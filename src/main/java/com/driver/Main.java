@@ -10,8 +10,8 @@ public class Main {
         //System.out.println(rwo.name);
         //'name' has private access in 'com.driver.RWOnly'
 
-        rwo.setter(name);
-        System.out.println(rwo.getter());
+        rwo.setName(name);
+        System.out.println(rwo.getName());
     }
   
 }
